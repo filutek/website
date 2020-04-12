@@ -1,0 +1,293 @@
+
+body {
+  color: #40514E;
+  background-color: #b4b5b6;
+  margin: 0;
+  text-align: center;
+  /* font-family: verdana, sans-serif; /* first one is font name, second style*/
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #17969d;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  padding: 10px;
+}
+
+
+
+
+h2 {
+  color: #17969d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+h4 {
+margin-top: 0;
+margin-bottom: 0;
+
+
+}
+
+
+p {
+  line-height: 2;
+}
+
+hr {
+
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 4%;
+margin: 0 auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+color: #EAF6F6;
+}
+
+
+/* ul {
+  position: -webkit-sticky;
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c1c2c3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+} */
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+background-color: #111;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.titles {
+  margin-top:  0;
+  margin-bottom: 0;
+}
+
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+}
+
+.art_overview{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+}
+
+.quantum-comp{
+  float: left;
+  margin-right: 30px;
+width: 25%;
+}
+
+.pictures {
+  width: 40%;
+  margin-top: 0;
+}
+
+.photo {
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.AI{
+  float: right;
+  margin-left: 30px;
+width: 25%;
+}
+
+/* .footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+} */
+.copyright{
+   color: #EAF6F6;
+   font-size: 0.75rem;
+   padding: 20px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  padding: 0px;
+}
+
+.middle-container {
+margin-top: 50px;
+margin-bottom: 100px;
+}
+
+.bottom-container {
+background-color: #c06c84;
+padding: 50px 0 20px;
+}
+
+.pictures {
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+
+.quantum {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+}
+
+.top-dopas {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.left_dopas {
+position: absolute;
+left: 50px;
+}
+
+.right_dopas {
+position: absolute;
+right: 50px;
+}
+
+
+.left_dopas_top {
+position: absolute;
+left: 50px;
+top: 650px;
+}
+
+
+
+.right_dopas_top {
+position: absolute;
+right: 50px;
+top: 650px;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+
+.contact-massage{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.footer-link{
+color: black;
+
+}
+
+.btn{
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color:  #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+}
+
+.btn:hover{
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2bc4ad);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2bc4ad);
+   background-image: -o-linear-gradient(top, #30E3CB, #2bc4ad);
+   background-image: linear-gradient(to bottom, #30E3CB, #2bc4ad);
+   text-decoration: none;
+}
